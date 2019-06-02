@@ -4,9 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 <body>
-    <script src="./index.js"></script>
+    <div id="container">
+        <div class="box">
+            <h6>Parkovi</h6>
+            <table id="parkTable">
+                <tr>
+                    <th>Naziv</th>
+                    <th>Godina izgradnje</th>
+                    <th>Povrsina</th>
+                    <th>Broj drveca</th>
+                    <th>Gustoca drveca</th>
+                </tr>
+            </table>
+            <div id="bottomPark">
+                <p id="starostPar" class="bottomText">Prosjecna starost parkova:</p>
+                <button id="parkoviPovrsinaBtn">Izvjestaj parkova po velicini</button>
+                <button id="parkoviBrojDrvecaBtn">Izvjestaj parkova po broju drveca</button>
+                <button id="btnX">X</button>
+            </div>
+        </div>
+        <div class="box">
+            <h6>Ulice</h6>
+            <table id="ulicaTable">
+                <tr>
+                        <th>Naziv</th>
+                        <th>Godina izgradnje</th>
+                        <th>Duzina</th>
+                        <th>Velicina</th>
+                </tr>
+            </table>
+            <div class="bottomUlica">
+                <p id="ukupnaDuzinaUl" class="bottomText">Ukupna duzina gradskih ulica:</p>
+            </div>
+            <div  class="bottomUlica">
+                <p id="prosjecnaDuzinaUl" class="bottomText">Prosjecna duzina gradskih ulica:</p>
+            </div>
+            <button id="uliceBtn">Ulice iz 80-ih</button>
+            <button id="btnX1">X</button>
+
+        </div>
+    </div>
+    <script src="./dist/bundle.js"></script>
 </body>
 </html>

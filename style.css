@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    border: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+#container {
+    padding: 0 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.box {
+    background-color: #f2fff5;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    font-size: 30px;
+    width: 50%;
+}
+h6 {
+    margin: 0;
+    font-size: 24px;
+    width: 100%;
+}
+#parkTable {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+}
+#parkTable td, #parkTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#parkTable tr th {
+    background-color: #96ff99;
+}
+#bottomPark {
+    margin-top: 1px;
+    position: relative;
+    height: 30px;
+    width: 100%;
+    bottom: 0;
+    background-color: #96ff99;
+}
+#starostPar {
+    font-size: 15px; 
+    padding: 5px 10px;
+}
+#ulicaTable {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+}
+#ulicaTable td, #ulicaTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#ulicaTable tr th {
+    background-color: #bec5d1;
+}
+.bottomUlica {
+    margin: 0;
+    background-color: #bec5d1;
+
+}
+.bottomText {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 15px; 
+    padding: 5px 10px;
+}
