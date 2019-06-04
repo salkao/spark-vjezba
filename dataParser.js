@@ -25,5 +25,4 @@ const parseData = (data) => {
     }
     return parsedData;
 }
-
 export default parseData;
